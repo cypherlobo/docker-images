@@ -1,11 +1,11 @@
-Docker images for droidian
+Docker images for DLS OS
 ==========================
 
 This repository contains the required source files to build Docker images
 for various release engineering tasks (package building, hardware adaptation building, rootfs building, etc...).
 
 These are built in Circle CI and, for the 'master' branch, the build artifacts are pushed automatically
-into quay, at the [droidian organization](https://quay.io/repository/droidian/build-essential).
+into quay, at the [droidian organization](https://quay.io/repository/cypherlobo/build-essential).
 
 Currently built images
 ----------------------
@@ -22,8 +22,8 @@ The following strings are replaced:
 
 | String            | Description                            | Example (for `arm64/droidian/build-essential:trixie`) |
 |-------------------|----------------------------------------|-------------------------------------------------------------|
-| `%(target_name)s` | Sanitized slug of the full target name | `arm64_droidian_build_essential_trixie`                     |
+| `%(target_name)s` | Sanitized slug of the full target name | `arm64_dlsos_build_essential_trixie`                     |
 | `%(arch)s`        | Architecture                           | `arm64`                                                     |
-| `%(namespace)s`   | Docker namespace                       | `droidian`                                                  |
+| `%(namespace)s`   | Docker namespace                       | `dlsos`                                                  |
 | `%(template)s`    | Template name                          | `build-essential`                                           |
 | `%(tag)s`         | Image tag                              | `trixie`                                                    |
