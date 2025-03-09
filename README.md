@@ -5,7 +5,7 @@ This repository contains the required source files to build Docker images
 for various release engineering tasks (package building, hardware adaptation building, rootfs building, etc...).
 
 These are built in Circle CI and, for the 'master' branch, the build artifacts are pushed automatically
-into quay, at the [droidian organization](https://quay.io/repository/cypherlobo/build-essential).
+into quay, at the [DLS-OS organization](https://quay.io/repository/cypherlobo/build-essential).
 
 Currently built images
 ----------------------
